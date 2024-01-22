@@ -1,0 +1,24 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "**%@:** %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "**%1$@:** %2$@"
+          }
+        }
+      }
+    },
+    "Published" : {
+      "comment" : "Dictates when a specific comic was first released.",
+      "extractionState" : "manual"
+    },
+    "Series" : {
+      "comment" : "Dictates the greater entity a single comic belongs to.",
+      "extractionState" : "manual"
+    }
+  },
+  "version" : "1.0"
+}
