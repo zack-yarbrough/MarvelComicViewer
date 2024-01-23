@@ -18,9 +18,10 @@
 		2A82900A2B5F23CD004A3ECC /* ComicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8290092B5F23CD004A3ECC /* ComicView.swift */; };
 		2A82900D2B5F2F07004A3ECC /* NetworkManaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A82900C2B5F2F07004A3ECC /* NetworkManaging.swift */; };
 		2A82900F2B5F3B8A004A3ECC /* keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A82900E2B5F3B8A004A3ECC /* keys.plist */; };
-		2A8290122B5F4BEB004A3ECC /* ComicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8290112B5F4BEB004A3ECC /* ComicViewModel.swift */; };
 		2A82901D2B5F5B36004A3ECC /* ComicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A82901C2B5F5B36004A3ECC /* ComicTests.swift */; };
 		2A8290232B5F9693004A3ECC /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2A8290222B5F9693004A3ECC /* Localizable.xcstrings */; };
+		2A82902E2B5FBE7C004A3ECC /* ComicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A82902D2B5FBE7C004A3ECC /* ComicViewModel.swift */; };
+		2A8290312B6040A6004A3ECC /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8290302B6040A6004A3ECC /* NetworkManagerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,10 +57,11 @@
 		2A82900B2B5F298F004A3ECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2A82900C2B5F2F07004A3ECC /* NetworkManaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManaging.swift; sourceTree = "<group>"; };
 		2A82900E2B5F3B8A004A3ECC /* keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = keys.plist; sourceTree = "<group>"; };
-		2A8290112B5F4BEB004A3ECC /* ComicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicViewModel.swift; sourceTree = "<group>"; };
 		2A8290132B5F527E004A3ECC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2A82901C2B5F5B36004A3ECC /* ComicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicTests.swift; sourceTree = "<group>"; };
 		2A8290222B5F9693004A3ECC /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		2A82902D2B5FBE7C004A3ECC /* ComicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicViewModel.swift; sourceTree = "<group>"; };
+		2A8290302B6040A6004A3ECC /* NetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				2A828FE42B5F1DB6004A3ECC /* MarvelAPIManagerTests.swift */,
+				2A8290302B6040A6004A3ECC /* NetworkManagerTests.swift */,
 				2A82901C2B5F5B36004A3ECC /* ComicTests.swift */,
 			);
 			path = MarvelComicViewerTests;
@@ -180,7 +183,7 @@
 		2A8290102B5F4BDE004A3ECC /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				2A8290112B5F4BEB004A3ECC /* ComicViewModel.swift */,
+				2A82902D2B5FBE7C004A3ECC /* ComicViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -325,11 +328,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A82900D2B5F2F07004A3ECC /* NetworkManaging.swift in Sources */,
+				2A82902E2B5FBE7C004A3ECC /* ComicViewModel.swift in Sources */,
 				2A8290012B5F1F8C004A3ECC /* Comic.swift in Sources */,
 				2A8290032B5F2025004A3ECC /* FetchComicResponse.swift in Sources */,
 				2A828FFE2B5F1DC1004A3ECC /* MarvelAPIManaging.swift in Sources */,
 				2A82900A2B5F23CD004A3ECC /* ComicView.swift in Sources */,
-				2A8290122B5F4BEB004A3ECC /* ComicViewModel.swift in Sources */,
 				2A828FD42B5F1DB4004A3ECC /* MarvelComicViewerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A8290312B6040A6004A3ECC /* NetworkManagerTests.swift in Sources */,
 				2A82901D2B5F5B36004A3ECC /* ComicTests.swift in Sources */,
 				2A828FE52B5F1DB6004A3ECC /* MarvelAPIManagerTests.swift in Sources */,
 			);

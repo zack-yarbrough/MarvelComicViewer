@@ -21,8 +21,8 @@ struct MarvelComicViewerApp: App {
         WindowGroup {
             ComicView(viewModel: comicViewModel)
                 .onAppear {
-                    URLCache.shared.memoryCapacity = 10_000_000 // ~10 MB memory space
-                    URLCache.shared.diskCapacity = 100_000_000 // ~100MB disk cache space
+                    URLCache.shared.memoryCapacity = 10_000_000
+                    URLCache.shared.diskCapacity = 100_000_000
                 }
         }
     }
